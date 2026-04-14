@@ -35,7 +35,7 @@ alias adb_unset_proxy="adb shell settings put global http_proxy :0"
 #### `j` - Crack hash with John
 
 ```bash
-alias j="john --wordlist=~/tools/seclists/Passwords/Leaked-Databases/rockyou.txt"
+alias j="john --wordlist=/opt/seclists/Passwords/Leaked-Databases/rockyou.txt"
 ```
 
 #### `lab` - HackTheBox machines VPN
@@ -77,13 +77,13 @@ alias linpeas="curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/down
 #### `sliver-server` - Run Sliver server
 
 ```bash
-alias sliver-server="~/tools/windows/sliver/sliver-server"
+alias sliver-server="~/tools/sliver/sliver-server"
 ```
 
 #### `sliver-client` - Run Sliver client
 
 ```bash
-alias sliver-client="~/tools/windows/sliver/sliver-client"
+alias sliver-client="~/tools/sliver/sliver-client"
 ```
 
 #### `bloodhound` - Run BloodHound
@@ -95,7 +95,7 @@ alias bloodhound="/opt/BloodHound/BloodHound --disable-gpu-sandbox"
 #### `kerbrute` - Run Kerbrute
 
 ```bash
-alias kerbrute="/home/serioton/tools/windows/kerbrute"
+alias kerbrute="/home/serioton/tools/kerbrute"
 ```
 
 #### `ptty` - Copy shell stabilization command
