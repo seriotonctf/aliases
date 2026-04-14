@@ -1,5 +1,7 @@
 # Aliases & Shell Functions
 
+A collection of useful aliases and shell functions for pentesting and CTF workflows.
+
 > Some aliases are taken from: [jazzpizazz/zsh-aliases](https://github.com/jazzpizazz/zsh-aliases), shoutout to jazzpizazz
 
 ---
